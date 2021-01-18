@@ -1,6 +1,5 @@
 import React, {Component} from 'react'
-import {AppBar, Button, IconButton, Toolbar, Typography} from "@material-ui/core";
-import {Menu} from '@material-ui/icons'
+import {Button, Toolbar, Typography} from "@material-ui/core";
 import NavState from "./NavState/NavState";
 
 
@@ -17,7 +16,7 @@ class Navigation extends Component {
                         </Typography>
                         <div style={{flexGrow: 1}}></div>
                         <Button color={'primary'}>
-                            Logg inn
+                            Ta kontakt
                         </Button>
                     </Toolbar>
                 </NavState>

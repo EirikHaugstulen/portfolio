@@ -1,0 +1,11 @@
+.Ava{
+    /*background: linear-gradient(70deg, #FFA652, #ee7b40);*/
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+    margin-top: 25px;
+}
+
+.Ava img{
+    position: absolute;
+}
