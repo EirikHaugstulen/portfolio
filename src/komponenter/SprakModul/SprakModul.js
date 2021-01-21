@@ -1,6 +1,5 @@
 import React from "react";
-import {FilterHdr, LocationCity} from "@material-ui/icons";
-import {Divider, Grid, ListItem, makeStyles, Typography} from "@material-ui/core";
+import {Grid, Typography} from "@material-ui/core";
 import Mountain from '../../SVG/Mountains.svg'
 import City from '../../SVG/City.svg'
 import Code from '../../SVG/code-break.svg'

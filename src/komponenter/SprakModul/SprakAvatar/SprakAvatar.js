@@ -1,8 +1,6 @@
 import React from "react";
-import {Avatar} from "@material-ui/core";
 
 import classes from './SprakAvatar.module.css'
-import {Image} from "@material-ui/icons";
 
 const SprakAvatar = (props) => (
     <React.Fragment>

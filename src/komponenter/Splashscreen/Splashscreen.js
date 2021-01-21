@@ -12,7 +12,7 @@ export default function Splashscreen () {
                 <div className={classes.Item}>
                     <SplashTxt />
                     <Button variant={'outlined'} color={'primary'}>Les mer</Button>
-                    <Button variant={'contained'} color={'primary'} style={{marginLeft: '20px'}}>Ta kontakt</Button>
+                    <Button variant={'contained'} color={'primary'}>Ta kontakt</Button>
                     <img src={sun} alt={'sun'} style={{position: 'absolute', top: 0, right: 0, width: '50%', zIndex: -2}} />
                 </div>
             </div>

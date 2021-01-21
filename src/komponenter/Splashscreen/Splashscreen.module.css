@@ -6,4 +6,17 @@
 .Item{
     display: table-cell;
     vertical-align: middle;
+    flex-direction: row;
 }
+
+.Container button + button {
+    margin-top: 10px;
+}
+
+@media (min-width: 350px) {
+    .Container button + button {
+        margin-top: 0;
+        margin-left: 20px;
+    }
+}
+
