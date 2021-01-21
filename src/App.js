@@ -3,8 +3,7 @@ import React from "react";
 import Navigation from './komponenter/Navigation/Navigation'
 import Splashscreen from "./komponenter/Splashscreen/Splashscreen";
 import {createMuiTheme, Grid, MuiThemeProvider, responsiveFontSizes, Typography} from "@material-ui/core";
-import SprakModul from './komponenter/SprakModul/SprakModul'
-import {dark} from "@material-ui/core/styles/createPalette";
+import FotballModul from './komponenter/FotballModul/FotballModul'
 import Erfaring from "./komponenter/Erfaring/Erfaring";
 import ErfaringHeader from "./komponenter/Erfaring/ErfaringHeader";
 import BG from './SVG/Sprak.svg'
@@ -63,10 +62,12 @@ const App = () =>  {
                             </Grid>
                         </Grid>
 
-
-                        <Grid container style={{background: '#c8f8b3', paddingTop: '', height: '40vh'}}>
-
+                        <Grid container>
+                            <Grid item xs={12}>
+                                <FotballModul />
+                            </Grid>
                         </Grid>
+
                     </Grid>
                 </MuiThemeProvider>
             </React.Fragment>
